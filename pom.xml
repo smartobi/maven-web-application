@@ -95,13 +95,13 @@
             <repository>
               <id>nexus</id>
               <name>${RELEASE-REPO}</name>
-              <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${RELEASE-REPO}/</url>
+              <url>http://${NEXUSIP}:${NEXUSPORT}/${CONTEXT}/repository/${RELEASE-REPO}/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>${SNAP-REPO}</name>
-              <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${SNAP-REPO}/</url>
+              <url>http://${NEXUSIP}:${NEXUSPORT}/${CONTEXT}/repository/${SNAP-REPO}/</url>
             </snapshotRepository>
 
         </distributionManagement>
